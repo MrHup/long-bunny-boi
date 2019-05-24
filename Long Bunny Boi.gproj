@@ -1,0 +1,111 @@
+<project>
+ <properties html5_mem="256" logicalHeight="480" version_code="16" osx_domain="giderosmobile.com" html5_fbinstant="0" win_domain="giderosmobile.com" app_name="Long Bunny Boi" splashScaleMode="0" architecture="0" vsync="0" orientation="0" touchToMouse="1" osx_org="GiderosMobile" splash_h_image="" fps="60" winrt_package="com.yourdomain.yourapp" backgroundColor="#ffffff" windowWidth="0" ios_bundle="com.yourdomain." autorotation="0" win_org="GiderosMobile" osx_signingId="" app_icon="icon.png" html5_fbload="100" splash_v_image="" iosDevice="0" mouseTouchOrder="0" android_template="1" osx_installerId="" exportMode="0" scaleMode="0" mouseToTouch="1" retinaDisplay="0" html5_host="" logicalWidth="320" osx_category="5" tv_icon="" encryptCode="1" build_number="1" osx_bundle="com.yourdomain." version="1.1.16" html5_pack="0" winrt_org="GiderosMobile" disableSplash="1" windowHeight="0" packageName="com.hubspace.longbunnyboi" encryptAssets="1">
+  <imageScales/>
+  <plugins>
+   <plugin enabled="1" name="Ads">
+    <property name="adsFwAdmob" value="1"/>
+    <property name="adsFwAdmobBanner" value="ca-app-pub-7984557040279312/6127204785"/>
+    <property name="adsFwAdmobClient" value="ca-app-pub-7984557040279312~2398862700"/>
+    <property name="adsFwAdmobInterstitial" value=""/>
+    <property name="adsFwApplovin" value="0"/>
+    <property name="adsFwApplovinKey" value=""/>
+    <property name="adsFwChartboost" value="0"/>
+    <property name="adsFwKiip" value="0"/>
+    <property name="adsFwKiipKey" value=""/>
+    <property name="adsFwKiipKeyIos" value=""/>
+    <property name="adsFwUnity" value="0"/>
+    <property name="adsFwVungle" value="0"/>
+    <property name="gmsAppId" value="164188093358"/>
+    <property name="gmsVersion" value="16.0.0"/>
+   </plugin>
+   <plugin enabled="1" name="Gaming">
+    <property name="gmsAppId" value="164188093358"/>
+    <property name="gmsFwGamekit" value="0"/>
+    <property name="gmsFwGoogle" value="1"/>
+    <property name="gmsVersion" value="16.0.0"/>
+   </plugin>
+   <plugin enabled="0" name="Google Licensing plugin"/>
+   <plugin enabled="0" name="Google Play Services">
+    <property name="gmsAppId" value="164188093358"/>
+    <property name="gmsVersion" value="16.0.0"/>
+   </plugin>
+   <plugin enabled="0" name="Iab">
+    <property name="iabAmazon" value="0"/>
+    <property name="iabGoogle" value="1"/>
+    <property name="iabiOS" value="0"/>
+   </plugin>
+   <plugin enabled="1" name="LiquidFun"/>
+  </plugins>
+  <exports>
+   <export name="APK">
+    <property name="androidPath" value="C:/Users/FLAVIUS/AppData/Local/Android/Sdk"/>
+    <property name="androidSdk" value=""/>
+    <property name="androidTarget" value="26"/>
+    <property name="androidTools" value=""/>
+    <property name="buildApk" value="1"/>
+    <property name="deployApk" value="0"/>
+    <property name="javaPath" value="C:/Program Files/Java/jdk1.8.0_152"/>
+    <property name="keyAlias" value="keyLBB_1"/>
+    <property name="keyStore" value="F:/Gideros/Android Studio Shit/Key1Sh/keyLBB1.jks"/>
+    <property name="packageName" value="com.hupspace.longbunnyboi"/>
+    <property name="timestampApk" value="0"/>
+   </export>
+  </exports>
+ </properties>
+ <file source="flake.lua"/>
+ <file source="snowfall.lua"/>
+ <file source="scoring.lua"/>
+ <file source="menu.lua"/>
+ <file source="game.lua"/>
+ <file source="config.lua"/>
+ <file source="main.lua"/>
+ <folder name="Sounds">
+  <file source="assets/sounds/swish.mp3"/>
+  <file source="assets/sounds/pop.mp3"/>
+  <file source="assets/sounds/snap.mp3"/>
+  <file source="assets/sounds/buff.wav"/>
+ </folder>
+ <folder name="OtherAssets"/>
+ <folder name="Classes">
+  <file source="classes/View.lua"/>
+  <file source="classes/TextWrap.lua"/>
+  <file source="classes/Sounds.lua"/>
+  <file source="classes/scenemanager.lua"/>
+  <file source="classes/Popup.lua"/>
+  <file source="classes/Music.lua"/>
+  <file source="classes/gtween.lua"/>
+  <file source="classes/GiderosCodingEasy.lua"/>
+  <file source="classes/easing.lua"/>
+  <file source="classes/dataSaver.lua"/>
+  <file source="classes/button.lua"/>
+  <file source="classes/AceSlide.lua"/>
+ </folder>
+ <folder name="Fonts">
+  <file source="assets/fonts/karma2.ttf"/>
+  <file source="assets/fonts/karma1.ttf"/>
+  <file source="assets/fonts/kongtext.ttf"/>
+ </folder>
+ <folder name="Art">
+  <file source="legs_1.png"/>
+  <file source="legs_0.png"/>
+  <file source="assets/arts/score.png"/>
+  <file source="assets/arts/best.png"/>
+  <file source="assets/arts/title.png"/>
+  <file source="assets/arts/gover.png"/>
+  <file source="assets/arts/BG.png"/>
+  <file source="assets/arts/play_1.png"/>
+  <file source="assets/arts/play_0.png"/>
+  <file source="assets/arts/panel.png"/>
+  <file source="assets/arts/flake.png"/>
+  <file source="assets/arts/dark.png"/>
+  <file source="assets/arts/column.png"/>
+  <file source="assets/arts/basic_tile2.png"/>
+  <file source="assets/arts/tree.png"/>
+  <file source="assets/arts/basic_tile.png"/>
+  <file source="legs1.png"/>
+  <file source="head.png"/>
+  <file source="body.png"/>
+ </folder>
+ <dependency from="game.lua" to="scoring.lua"/>
+ <dependency from="snowfall.lua" to="flake.lua"/>
+</project>
