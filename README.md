@@ -1,4 +1,4 @@
-# long-bunny-boi
+# Long Bunny Boi
 An android game I did to experiment with AdMob and other Gideros features.
 
 The game is available on Google Play: https://play.google.com/store/apps/details?id=com.hupspace.longbunnyboi
