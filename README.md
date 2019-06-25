@@ -11,7 +11,7 @@ As for the premise, the game goes on forever with increasing difficulty and you 
 
 Images from ingame:
 
-![1](https://user-images.githubusercontent.com/50552606/60085215-8d409880-9741-11e9-97e7-50c9d42d9b38.jpg)
-![2](https://user-images.githubusercontent.com/50552606/60085217-8d409880-9741-11e9-8426-5c3a84d647bd.jpg)
-![3](https://user-images.githubusercontent.com/50552606/60085218-8dd92f00-9741-11e9-9bf3-a0b08afa01aa.jpg)
+![1](https://user-images.githubusercontent.com/50552606/60086195-4eabdd80-9743-11e9-9e07-574665bd61c0.jpg)
+![2](https://user-images.githubusercontent.com/50552606/60086197-4eabdd80-9743-11e9-8903-18cc81eace93.jpg)
+![3](https://user-images.githubusercontent.com/50552606/60086198-4eabdd80-9743-11e9-86c9-890da551d0dd.jpg)
 
